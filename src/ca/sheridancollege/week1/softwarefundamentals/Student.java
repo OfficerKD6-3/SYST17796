@@ -16,14 +16,15 @@ public class Student {
     private String name;
     private String program;
     private String status;
+    private String Student;
+    private int time;
 
     /**
-     * hi 
+     * hi
      */
     /**
-    
-    /** this is an edit on github/**
-     * Get the value of name
+     *
+     * /** this is an edit on github/** Get the value of name
      *
      * @return the value of name
      */
