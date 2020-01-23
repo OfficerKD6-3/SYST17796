@@ -5,6 +5,8 @@
  */
 package ca.sheridancollege.week1.softwarefundamentals;
 
+import java.beans.PropertyChangeSupport;
+
 /**
  *
  * @author sidhu376
@@ -34,5 +36,7 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+    private final transient PropertyChangeSupport propertyChangeSupport = new java.beans.PropertyChangeSupport(this);
+    public static final String PROP_NAME = "name";
 
 }
