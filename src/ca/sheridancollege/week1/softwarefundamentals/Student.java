@@ -14,11 +14,12 @@ import java.beans.PropertyChangeSupport;
 public class Student {
 
     private String name;
+    private String program;
+    private String status;
 
     /**
      * hi
      */
-
     /**
      * Get the value of name
      *
